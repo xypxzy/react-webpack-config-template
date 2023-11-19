@@ -18,6 +18,7 @@ export const App = () => {
 			<button onClick={() => setCounter(counter + 1)}>
 				Increment {__PLATFORM__} ddsadadasds
 			</button>
+			<div data-testid={'App.DataTestId'}>remove</div>
 			<img width={100} src={images} alt='' />
 			<ImageSvg width={200} height={200} color={'red'} />
 			<Outlet />
